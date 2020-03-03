@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		170CCD92240E4A50001567DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 170CCD91240E4A50001567DF /* AppDelegate.m */; };
+		170CCD95240E4A50001567DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 170CCD94240E4A50001567DF /* ViewController.m */; };
+		170CCD98240E4A50001567DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 170CCD96240E4A50001567DF /* Main.storyboard */; };
+		170CCD9A240E4A52001567DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 170CCD99240E4A52001567DF /* Assets.xcassets */; };
+		170CCD9D240E4A52001567DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 170CCD9B240E4A52001567DF /* LaunchScreen.storyboard */; };
+		170CCDA0240E4A52001567DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 170CCD9F240E4A52001567DF /* main.m */; };
+		170CCDAA240E4A52001567DF /* fishhookTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 170CCDA9240E4A52001567DF /* fishhookTestTests.m */; };
+		170CCDB5240E4A52001567DF /* fishhookTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 170CCDB4240E4A52001567DF /* fishhookTestUITests.m */; };
+		170CCDC4240E4ACB001567DF /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 170CCDC3240E4ACB001567DF /* fishhook.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		170CCDA6240E4A52001567DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 170CCD85240E4A50001567DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 170CCD8C240E4A50001567DF;
+			remoteInfo = fishhookTest;
+		};
+		170CCDB1240E4A52001567DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 170CCD85240E4A50001567DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 170CCD8C240E4A50001567DF;
+			remoteInfo = fishhookTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		170CCD8D240E4A50001567DF /* fishhookTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fishhookTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		170CCD90240E4A50001567DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		170CCD91240E4A50001567DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		170CCD93240E4A50001567DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		170CCD94240E4A50001567DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		170CCD97240E4A50001567DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		170CCD99240E4A52001567DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		170CCD9C240E4A52001567DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		170CCD9E240E4A52001567DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		170CCD9F240E4A52001567DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		170CCDA5240E4A52001567DF /* fishhookTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fishhookTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		170CCDA9240E4A52001567DF /* fishhookTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fishhookTestTests.m; sourceTree = "<group>"; };
+		170CCDAB240E4A52001567DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		170CCDB0240E4A52001567DF /* fishhookTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fishhookTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		170CCDB4240E4A52001567DF /* fishhookTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fishhookTestUITests.m; sourceTree = "<group>"; };
+		170CCDB6240E4A52001567DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		170CCDC2240E4ACA001567DF /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		170CCDC3240E4ACB001567DF /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		170CCD8A240E4A50001567DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170CCDA2240E4A52001567DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170CCDAD240E4A52001567DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		170CCD84240E4A50001567DF = {
+			isa = PBXGroup;
+			children = (
+				170CCD8F240E4A50001567DF /* fishhookTest */,
+				170CCDA8240E4A52001567DF /* fishhookTestTests */,
+				170CCDB3240E4A52001567DF /* fishhookTestUITests */,
+				170CCD8E240E4A50001567DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		170CCD8E240E4A50001567DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				170CCD8D240E4A50001567DF /* fishhookTest.app */,
+				170CCDA5240E4A52001567DF /* fishhookTestTests.xctest */,
+				170CCDB0240E4A52001567DF /* fishhookTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		170CCD8F240E4A50001567DF /* fishhookTest */ = {
+			isa = PBXGroup;
+			children = (
+				170CCDC3240E4ACB001567DF /* fishhook.c */,
+				170CCDC2240E4ACA001567DF /* fishhook.h */,
+				170CCD90240E4A50001567DF /* AppDelegate.h */,
+				170CCD91240E4A50001567DF /* AppDelegate.m */,
+				170CCD93240E4A50001567DF /* ViewController.h */,
+				170CCD94240E4A50001567DF /* ViewController.m */,
+				170CCD96240E4A50001567DF /* Main.storyboard */,
+				170CCD99240E4A52001567DF /* Assets.xcassets */,
+				170CCD9B240E4A52001567DF /* LaunchScreen.storyboard */,
+				170CCD9E240E4A52001567DF /* Info.plist */,
+				170CCD9F240E4A52001567DF /* main.m */,
+			);
+			path = fishhookTest;
+			sourceTree = "<group>";
+		};
+		170CCDA8240E4A52001567DF /* fishhookTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				170CCDA9240E4A52001567DF /* fishhookTestTests.m */,
+				170CCDAB240E4A52001567DF /* Info.plist */,
+			);
+			path = fishhookTestTests;
+			sourceTree = "<group>";
+		};
+		170CCDB3240E4A52001567DF /* fishhookTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				170CCDB4240E4A52001567DF /* fishhookTestUITests.m */,
+				170CCDB6240E4A52001567DF /* Info.plist */,
+			);
+			path = fishhookTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		170CCD8C240E4A50001567DF /* fishhookTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 170CCDB9240E4A52001567DF /* Build configuration list for PBXNativeTarget "fishhookTest" */;
+			buildPhases = (
+				170CCD89240E4A50001567DF /* Sources */,
+				170CCD8A240E4A50001567DF /* Frameworks */,
+				170CCD8B240E4A50001567DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fishhookTest;
+			productName = fishhookTest;
+			productReference = 170CCD8D240E4A50001567DF /* fishhookTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		170CCDA4240E4A52001567DF /* fishhookTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 170CCDBC240E4A52001567DF /* Build configuration list for PBXNativeTarget "fishhookTestTests" */;
+			buildPhases = (
+				170CCDA1240E4A52001567DF /* Sources */,
+				170CCDA2240E4A52001567DF /* Frameworks */,
+				170CCDA3240E4A52001567DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				170CCDA7240E4A52001567DF /* PBXTargetDependency */,
+			);
+			name = fishhookTestTests;
+			productName = fishhookTestTests;
+			productReference = 170CCDA5240E4A52001567DF /* fishhookTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		170CCDAF240E4A52001567DF /* fishhookTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 170CCDBF240E4A52001567DF /* Build configuration list for PBXNativeTarget "fishhookTestUITests" */;
+			buildPhases = (
+				170CCDAC240E4A52001567DF /* Sources */,
+				170CCDAD240E4A52001567DF /* Frameworks */,
+				170CCDAE240E4A52001567DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				170CCDB2240E4A52001567DF /* PBXTargetDependency */,
+			);
+			name = fishhookTestUITests;
+			productName = fishhookTestUITests;
+			productReference = 170CCDB0240E4A52001567DF /* fishhookTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		170CCD85240E4A50001567DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Shae;
+				TargetAttributes = {
+					170CCD8C240E4A50001567DF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					170CCDA4240E4A52001567DF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 170CCD8C240E4A50001567DF;
+					};
+					170CCDAF240E4A52001567DF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 170CCD8C240E4A50001567DF;
+					};
+				};
+			};
+			buildConfigurationList = 170CCD88240E4A50001567DF /* Build configuration list for PBXProject "fishhookTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 170CCD84240E4A50001567DF;
+			productRefGroup = 170CCD8E240E4A50001567DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				170CCD8C240E4A50001567DF /* fishhookTest */,
+				170CCDA4240E4A52001567DF /* fishhookTestTests */,
+				170CCDAF240E4A52001567DF /* fishhookTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		170CCD8B240E4A50001567DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170CCD9D240E4A52001567DF /* LaunchScreen.storyboard in Resources */,
+				170CCD9A240E4A52001567DF /* Assets.xcassets in Resources */,
+				170CCD98240E4A50001567DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170CCDA3240E4A52001567DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170CCDAE240E4A52001567DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		170CCD89240E4A50001567DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170CCD95240E4A50001567DF /* ViewController.m in Sources */,
+				170CCDA0240E4A52001567DF /* main.m in Sources */,
+				170CCDC4240E4ACB001567DF /* fishhook.c in Sources */,
+				170CCD92240E4A50001567DF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170CCDA1240E4A52001567DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170CCDAA240E4A52001567DF /* fishhookTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170CCDAC240E4A52001567DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170CCDB5240E4A52001567DF /* fishhookTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		170CCDA7240E4A52001567DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 170CCD8C240E4A50001567DF /* fishhookTest */;
+			targetProxy = 170CCDA6240E4A52001567DF /* PBXContainerItemProxy */;
+		};
+		170CCDB2240E4A52001567DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 170CCD8C240E4A50001567DF /* fishhookTest */;
+			targetProxy = 170CCDB1240E4A52001567DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		170CCD96240E4A50001567DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				170CCD97240E4A50001567DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		170CCD9B240E4A52001567DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				170CCD9C240E4A52001567DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		170CCDB7240E4A52001567DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		170CCDB8240E4A52001567DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		170CCDBA240E4A52001567DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2MN46CACA;
+				INFOPLIST_FILE = fishhookTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Shae.fishhookTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		170CCDBB240E4A52001567DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2MN46CACA;
+				INFOPLIST_FILE = fishhookTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Shae.fishhookTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		170CCDBD240E4A52001567DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2MN46CACA;
+				INFOPLIST_FILE = fishhookTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Shae.fishhookTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fishhookTest.app/fishhookTest";
+			};
+			name = Debug;
+		};
+		170CCDBE240E4A52001567DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2MN46CACA;
+				INFOPLIST_FILE = fishhookTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Shae.fishhookTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fishhookTest.app/fishhookTest";
+			};
+			name = Release;
+		};
+		170CCDC0240E4A52001567DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2MN46CACA;
+				INFOPLIST_FILE = fishhookTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Shae.fishhookTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fishhookTest;
+			};
+			name = Debug;
+		};
+		170CCDC1240E4A52001567DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2MN46CACA;
+				INFOPLIST_FILE = fishhookTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Shae.fishhookTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fishhookTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		170CCD88240E4A50001567DF /* Build configuration list for PBXProject "fishhookTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				170CCDB7240E4A52001567DF /* Debug */,
+				170CCDB8240E4A52001567DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		170CCDB9240E4A52001567DF /* Build configuration list for PBXNativeTarget "fishhookTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				170CCDBA240E4A52001567DF /* Debug */,
+				170CCDBB240E4A52001567DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		170CCDBC240E4A52001567DF /* Build configuration list for PBXNativeTarget "fishhookTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				170CCDBD240E4A52001567DF /* Debug */,
+				170CCDBE240E4A52001567DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		170CCDBF240E4A52001567DF /* Build configuration list for PBXNativeTarget "fishhookTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				170CCDC0240E4A52001567DF /* Debug */,
+				170CCDC1240E4A52001567DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 170CCD85240E4A50001567DF /* Project object */;
+}
